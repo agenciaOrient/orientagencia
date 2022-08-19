@@ -1,0 +1,15 @@
+1 - Remover 03 figuras encima do Banner
+2 - colocar setas indrodução a atividade da empresa
+3 - Ajustar layout do card de serviços para todos ficarem com o mesmo tamanho e disposição
+4 - coluna de dois para layout tablet
+Forms Contato:
+Looks good! - só ficar verde.
+Click aqui se condorada com as condições - Colocar padrão, que concorda com o envio das informações... padrão sites.
+
+ Localização: -> Atendimento
+Pederneiras, Bauru, Jaú 
+
+Rodapé inspirado na arte do Illustrator.
+
+Colocar
+Menu completo.
