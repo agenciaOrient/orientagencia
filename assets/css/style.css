@@ -1,0 +1,177 @@
+/*meu css*/
+
+.navbar .navbar-nav .nav-item{color: #000;font-weight: 900;font-size:1.3em}
+.navbar .navbar-nav .nav-item :hover{ color: #4e3c8e;}
+.navbar .navbar-nav .nav-item i {font-size:1.2em;font-weight:  800;color: #4e3c8e; padding: 8px;}
+/* 
+.carousel-item{width: 100vw;height: 80vh;} */
+
+.ideias {
+  margin-top: -10vh;
+}
+
+.ideias .consultoria {
+  background: rgb(46 180 233)
+    /*rgb(32 32 32 / 98%)*/
+  ;
+  ;
+
+
+  -webkit-box-shadow: 1px 1px 1px 1px #000000;
+  -moz-box-shadow: 1px 1px 1px 1px #000000;
+  box-shadow: 1px 1px 1px 1px #000000;
+}
+
+.ideias .preparacao {
+  background: rgb(78 60 142);
+
+  border: 1px solid rgba(78, 60, 142, 0.1);
+  -webkit-box-shadow: 1px 1px 1px 1px #4e3c8e;
+  -moz-box-shadow: 1px 1px 1px 1px #4e3c8e;
+  box-shadow: 1px 1px 1px 1px #4e3c8e;
+}
+
+.ideias .implementacao {
+  background: rgb(46 180 233);
+
+  -webkit-box-shadow: 1px 1px 1px 1px #2eb4e9;
+  -moz-box-shadow: 1px 1px 1px 1px #2eb4e9;
+  box-shadow: 1px 1px 1px 1px #2eb4e9;
+}
+
+.sobre {
+  background: white;
+}
+
+.diferencas {
+  background: linear-gradient(rgba(41, 55, 97, 0.8), rgba(41, 55, 97, 0.8)), url('../img/img_orient.jpg') center center / cover no-repeat
+}
+
+.diferencas .card {
+  background-color: transparent;
+  border: 0;
+}
+
+.diferencas .card .card-header,
+.servicos .card .card-header {
+  background-color: transparent !important;
+  border: 0;
+}
+.servicos .card .card-header {height: 10vh; align-items: center;}
+
+.sobre .card-sobre-img {
+  -webkit-box-shadow: -6.5px 0 16.5px 4px #4e3c8e;
+  -moz-box-shadow: -6.5px 0 16.5px 4px #4e3c8e;
+  box-shadow: -6.5px 0 16.5px 4px #4e3c8e;
+}
+
+.servicos h2 {
+  font-weight: bold;
+  color: #4e3c8e;
+}
+
+.servicos,
+.sobre {
+  background-color: #E7E9EB;
+}
+
+.servicos .card-header i {
+  font-size: 1.5em;
+  color: #2eb4e9;
+}
+
+.servicos .card-header h3 {
+  font-size: 1.5em;
+  margin-left: 15px;
+  color: #4e3c8e;
+  font-weight: 500;
+}
+
+.servicos .border-secondary {
+  border-color: #4e3c8e !important;
+  border-radius: 20px;
+}
+
+.servicos .card .card-text {
+  font-size: 1.2rem;
+  color: black;
+  text-align: left;
+}
+
+.servicos .card {
+  height: 300px;
+  margin-top: 15px;
+}
+
+/* .servicos{background: #474bff;
+      background: -webkit-linear-gradient(98deg, #474bff 0%, #bc48ff 100%);
+      background: linear-gradient(98deg, #474bff 0%, #bc48ff 100%); }*/
+.contato .card-contato-local,
+.contato .card-form {
+  -webkit-box-shadow: 3px 3px 3px 3px #4e3c8e;
+  -moz-box-shadow: 3px 3px 3px 3px #4e3c8e;
+  box-shadow: 3px 3px 3px 3px #4e3c8e;
+}
+
+.contato h2 {
+  color: #4e3c8e;
+  font-weight: bold;
+}
+
+.contato .card-contato-local i {
+  color: #2eb4e9;font-size: 1.5rem;
+}
+.contato .card-contato-local  h4{color: #4e3c8e; font-weight: 500;}
+.contato .card-contato-local  p,.contato .card-contato-local a{color: #000;text-transform: uppercase;text-decoration: none;font-size: 1.2rem;font-weight: 600;}
+.footer {
+  background: #000;
+}
+
+.footer i {
+  color: black;
+  background-color: white;
+  border-radius: 20%;
+  padding: 15px;
+  font-size: 2em
+}
+footer .agencia{font-weight: 600;}
+footer .container .row hr{ margin-top:20px;
+  border-color:#aaa;
+  box-sizing:border-box;
+ 
+}
+.footer .footer-contato a{ text-decoration: none;color: white;font-size: 1.2rem;}
+.footer .footer-contato .icons i{ font-size: 1.2em; border-radius:20px;padding: 5px;}
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime="down"] {
+  transform: translate3d(0, -100%, 0);
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, 100%, 0);
+}
+
+[data-anime="left"] {
+  transform: translate3d(-100%, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px ,0 ,0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0 ,0 ,0);
+}
+/* resposividade*/
+@media (min-width: 100px) and (max-width:780px) {
+  .ideias {
+    margin-top: 1em;
+  }
+}
