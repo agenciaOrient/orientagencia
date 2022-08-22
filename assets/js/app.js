@@ -57,7 +57,7 @@ const btnEnviarLoader = document.querySelector("#btn-enviar-loader");
 from_contato.addEventListener("submit", async (e) => {
   e.preventDefault();
   const dadosForm = new FormData(from_contato);
-  const dados = await fetch(`../../../enviar_email.php`, {
+  const dados = await fetch(`../../enviar_email.php`, {
     method: "POST",
     body: dadosForm,
   });
