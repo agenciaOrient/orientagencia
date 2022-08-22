@@ -1,8 +1,19 @@
 /*meu css*/
 
-.navbar .navbar-nav .nav-item{color: #000;font-weight: 900;font-size:1.3em}
-.navbar .navbar-nav .nav-item :hover{ color: #4e3c8e;}
-.navbar .navbar-nav .nav-item i {font-size:1.2em;font-weight:  800;color: #4e3c8e; padding: 8px;}
+.navbar .navbar-nav .nav-item {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.3em;
+}
+.navbar .navbar-nav .nav-item :hover {
+  color: #4e3c8e;
+}
+.navbar .navbar-nav .nav-item i {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: #4e3c8e;
+  padding: 8px;
+}
 /* 
 .carousel-item{width: 100vw;height: 80vh;} */
 
@@ -11,12 +22,7 @@
 }
 
 .ideias .consultoria {
-  background: rgb(46 180 233)
-    /*rgb(32 32 32 / 98%)*/
-  ;
-  ;
-
-
+  background: rgb(46 180 233) /*rgb(32 32 32 / 98%)*/;
   -webkit-box-shadow: 1px 1px 1px 1px #000000;
   -moz-box-shadow: 1px 1px 1px 1px #000000;
   box-shadow: 1px 1px 1px 1px #000000;
@@ -44,7 +50,8 @@
 }
 
 .diferencas {
-  background: linear-gradient(rgba(41, 55, 97, 0.8), rgba(41, 55, 97, 0.8)), url('../img/img_orient.jpg') center center / cover no-repeat
+  background: linear-gradient(rgba(41, 55, 97, 0.8), rgba(41, 55, 97, 0.8)),
+    url("../img/img_orient.jpg") center center / cover no-repeat;
 }
 
 .diferencas .card {
@@ -57,7 +64,10 @@
   background-color: transparent !important;
   border: 0;
 }
-.servicos .card .card-header {height: 10vh; align-items: center;}
+.servicos .card .card-header {
+  height: 10vh;
+  align-items: center;
+}
 
 .sobre .card-sobre-img {
   -webkit-box-shadow: -6.5px 0 16.5px 4px #4e3c8e;
@@ -72,7 +82,7 @@
 
 .servicos,
 .sobre {
-  background-color: #E7E9EB;
+  background-color: #e7e9eb;
 }
 
 .servicos .card-header i {
@@ -119,10 +129,21 @@
 }
 
 .contato .card-contato-local i {
-  color: #2eb4e9;font-size: 1.5rem;
+  color: #2eb4e9;
+  font-size: 1.5rem;
 }
-.contato .card-contato-local  h4{color: #4e3c8e; font-weight: 500;}
-.contato .card-contato-local  p,.contato .card-contato-local a{color: #000;text-transform: uppercase;text-decoration: none;font-size: 1.2rem;font-weight: 600;}
+.contato .card-contato-local h4 {
+  color: #4e3c8e;
+  font-weight: 500;
+}
+.contato .card-contato-local p,
+.contato .card-contato-local a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 .footer {
   background: #000;
 }
@@ -132,16 +153,26 @@
   background-color: white;
   border-radius: 20%;
   padding: 15px;
-  font-size: 2em
+  font-size: 2em;
 }
-footer .agencia{font-weight: 600;}
-footer .container .row hr{ margin-top:20px;
-  border-color:#aaa;
-  box-sizing:border-box;
- 
+footer .agencia {
+  font-weight: 600;
 }
-.footer .footer-contato a{ text-decoration: none;color: white;font-size: 1.2rem;}
-.footer .footer-contato .icons i{ font-size: 1.2em; border-radius:20px;padding: 5px;}
+footer .container .row hr {
+  margin-top: 20px;
+  border-color: #aaa;
+  box-sizing: border-box;
+}
+.footer .footer-contato a {
+  text-decoration: none;
+  color: white;
+  /* font-size: 1.2em; */
+}
+.footer .footer-contato .icons i {
+  font-size: 1.2em;
+  border-radius: 10px;
+  padding: 10px;
+}
 /* Animação */
 
 [data-anime] {
@@ -162,16 +193,29 @@ footer .container .row hr{ margin-top:20px;
 }
 
 [data-anime="right"] {
-  transform: translate3d(50px ,0 ,0);
+  transform: translate3d(50px, 0, 0);
 }
 
 [data-anime].animate {
   opacity: 1;
-  transform: translate3d(0 ,0 ,0);
+  transform: translate3d(0, 0, 0);
 }
 /* resposividade*/
-@media (min-width: 100px) and (max-width:780px) {
+@media (max-width:768px) {
   .ideias {
     margin-top: 1em;
   }
+  .img-footer,.footer-contato{text-align: center;}
+  #icons{justify-content: center!important;}
+}
+
+#btn-enviar-loader{
+  display: none;
+}
+
+#alerta {
+  position: fixed;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
 }
