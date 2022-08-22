@@ -22,7 +22,7 @@ $mail->Port = MAIL["port"];
 $mail->setLanguage('pt');
 $mail -> charSet = "UTF-8"; 
 $mail->setFrom('contato@orientagencia.com.br');
-$mail->addAddress('contato@orientagencia.com.br');
+$mail->addAddress('richard.seolin@orientagencia.com.br');
 
 $mail->isHTML(true);
 $mail->Subject = $subjec_form_contact;
