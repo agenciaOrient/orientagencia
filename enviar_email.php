@@ -19,8 +19,8 @@ $mail->SMTPAuth = true;
 $mail->Username = MAIL["username"];
 $mail->Password = MAIL["password"];
 $mail->Port = MAIL["port"];
-$mail->setLanguage('pt');
-$mail -> charSet = "UTF-8"; 
+$mail->setLanguage('br');
+$mail ->charSet = "UTF-8"; 
 $mail->setFrom('contato@orientagencia.com.br');
 $mail->addAddress('richard.seolin@orientagencia.com.br');
 
